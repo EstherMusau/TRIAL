@@ -11,7 +11,11 @@ page 50112 "Radio Show Card"
             group(General)
             {
                 field("No."; "No.") { ApplicationArea = Basic; }
-                field("Radio Show Type"; "Radio Show Type") { ApplicationArea = Basic; }
+                field("Radio Show Type"; "Radio Show Type")
+                {
+                    ApplicationArea = Basic;
+                    Importance = Promoted;
+                }
                 field("Name"; "Name") { ApplicationArea = Basic; }
 
                 field("Run Time"; "Run Time") { ApplicationArea = Basic; }

@@ -10,12 +10,13 @@ page 50120 "Radio Show Fan List"
         {
             repeater(General)
             {
-                field("E-Mail"; Rec."E-Mail")
+
+                field("E-Mail."; Rec."E-Mail")
                 {
                     ToolTip = 'Specifies the value of the E-Mail field.';
                     ApplicationArea = Basic;
                 }
-                field("Last Contacted"; Rec."Last Contacted")
+                field("Last Contacted."; Rec."Last Contacted")
                 {
                     ToolTip = 'Specifies the value of the Last Contacted field.';
                     ApplicationArea = Basic;
@@ -35,6 +36,43 @@ page 50120 "Radio Show Fan List"
                     ToolTip = 'Specifies the value of the Radio Show Number field.';
                     ApplicationArea = Basic;
                 }
+                field("Address."; "Address")
+                {
+                    ToolTip = 'Specifies the value of Address Field';
+                    ApplicationArea = Basic;
+                }
+                field("Address 2."; "Address 2")
+                {
+                    ToolTip = 'Specifies the value of Address 2 Field';
+                    ApplicationArea = Basic;
+                }
+                field("City."; City)
+                {
+                    ToolTip = 'Specifies the value of the City Field';
+                    ApplicationArea = Basic;
+                }
+                field("County."; County)
+                {
+                    ToolTip = 'Specifies the value in the County Field';
+                    ApplicationArea = Basic;
+                }
+                field("Country/Region Code."; "Country/Region Code")
+                {
+                    ToolTip = 'Specifies the value in the Country/Region Code Field';
+                    ApplicationArea = Basic;
+                }
+
+                field("Country Name";CountryName)
+                {
+                    ToolTip='Specifies the value in the Country Name Field';
+                    ApplicationArea=Basic;
+                }
+                field("Post Code."; "Post Code")
+                {
+                    ToolTip = 'Specifies the value in the Post Code Field';
+                    ApplicationArea = Basic;
+                }
+
             }
         }
     }

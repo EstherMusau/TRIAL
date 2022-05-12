@@ -82,7 +82,7 @@ page 50121 "Lot Avail. by Bin"
 
     var
 
-        LotAvail: Query "Lot Avail. by Bin";
+        LotAvail: Query "Lot Avail . by Bin";
 
     begin
 
@@ -96,7 +96,7 @@ page 50121 "Lot Avail. by Bin"
 
             "Entry No." := "Entry No." + 1; //To insert Entries after intializing;
 
-            "Item No." := LotAvail.Item_No;
+            "Item No." := LotAvail.Item_No_;
 
             "Location Code" := LotAvail.Location_Code;
 

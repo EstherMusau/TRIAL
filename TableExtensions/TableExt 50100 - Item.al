@@ -7,6 +7,11 @@ tableextension 50110 Item extends Item
         field(50102; Duration;Duration){}
         field(50103; "Data Format";Option){ OptionMembers= ,Vinyl, CD, MP3, PSA, Advertisement;}
         field(50104; "MP3 Location"; Text[250]){}
+
+        // modify("Vendor Item No.")
+        // {
+        //     Caption='XYZ';
+        // }
     }
     
     var
